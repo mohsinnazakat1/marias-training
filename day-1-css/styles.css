@@ -1,0 +1,28 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* inheritance */
+button,
+input,select,
+textarea{
+  font: inherit;
+}
+
+/* css variable */
+:root{
+  --brand-color: rgb(155, 141, 141) ;
+  --text-color:black;
+  --muted-text:#fbf8f8;
+  --base-spacing:4px;
+
+}
+/* full page container */
+.page {
+  max-width: 720px;
+  margin: auto;
+  padding: 0 16px;
+}
