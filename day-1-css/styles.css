@@ -1,0 +1,66 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* inheritance */
+button,
+input,select,
+textarea{
+  font: inherit;
+}
+
+/* css variable */
+:root{
+  --brand-color: rgb(155, 141, 141) ;
+  --text-color:black;
+  --muted-text:#fbf8f8;
+  --base-spacing:4px;
+
+}
+/* full page container */
+.page {
+  max-width: 720px;
+  margin:0 auto;
+  padding: 0 16px;
+}
+.course-card{
+  width: 320px;
+  padding: 24px;
+  border: 1px solid;;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 32px;
+  
+}
+.course-card div{
+  height: 160px; 
+  background-color: antiquewhite;
+}
+span{
+  padding: 2px;
+  background-color: azure;
+  display: inline-block;
+  
+}
+.enroll-button{
+  padding: 4px;
+  width: 100px;
+}
+.course-card a{
+  display: inline-block;
+  padding: 4px;
+  width: 100px;
+  
+}
+.enroll-button:hover,a:hover{
+  color: red;
+}
+.enroll-button:focus-visible,a:focus-visible{
+  outline: 3px solid blue;
+}
+.course-card.course-card--featured {
+  border: 3px solid var(--brand-color);
+}

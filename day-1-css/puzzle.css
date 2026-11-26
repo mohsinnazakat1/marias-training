@@ -1,0 +1,6 @@
+p { color: black; }
+.panel p { color: blue; }
+#box p { color: green; }
+.note.important { color: red; }
+.panel .note { color: purple; }
+
